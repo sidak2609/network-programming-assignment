@@ -31,7 +31,7 @@ void loadConfig(){
         }
     }
     fclose(fp);
-    printf("File fucking loaded\n");
+    printf("File is loaded!! :)\n");
     printf("Port: %d\n", port);
     printf("Path: %s\n", path);
 }
