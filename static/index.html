@@ -1,24 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!--Put image here-->
-    <!-- Make it small-->
-    <!-- Make it a square-->
-    <img src="https://assets.servatom.com/avatar.jpg" alt="Raghav Sharma" width="200" height="200">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yashvardhan Arora</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body
+    style="
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 0 0 50px;
+      background-color: #181c1e;
+      color: azure;
+    "
+  >
+    <style>
+      .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .pfp {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+      }
+      .container .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 50px;
+      }
+    </style>
+    <img
+      src="https://assets.servatom.com/Thumbnail.png"
+      alt="Servatom"
+      width="100%"
+    />
 
-    <!-- Put href here-->
-    <a href="https://github.com/raghavTinker">Github account hai mera</a>
-
-    <!--Put my name here-->
-    <p>Did you know? <strong>Raghav Sharma is great</strong></p>
-
-    <!-- put roll number here-->
-    <p>My roll number is <strong>102017194</strong></p>
-</body>
+    <div class="container">
+      <img
+        class="pfp"
+        src="https://assets.servatom.com/avatar.jpg"
+        alt="Yashvardhan Arora"
+      />
+      <div class="info">
+        <a
+          style="color: white; text-decoration: underline"
+          href="https://github.com/raghavTinker"
+          target="_blank"
+          >My Github account</a
+        >
+        <p>My name is <strong>Raghav Sharma</strong></p>
+        <p>My roll number is <strong>102017194</strong></p>
+      </div>
+    </div>
+  </body>
 </html>
